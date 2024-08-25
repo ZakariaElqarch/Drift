@@ -1,7 +1,7 @@
 module.exports = function (api) {
   api.cache(true);
   return {
-    presets: ["-preset-expo"],
-    plugins: ["nativewind/"],
+    presets: ["babel-preset-expo"], // Corrected preset name
+    plugins: ["nativewind/babel"], // Corrected plugin path
   };
 };
